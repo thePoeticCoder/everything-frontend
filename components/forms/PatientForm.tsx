@@ -14,7 +14,7 @@ import "react-phone-number-input/style.css";
 import CustomFormField, { FormFieldType } from "../CustomFormField";
 import SubmitButton from "../SubmitButton";
 
-export const PatientForm = () => {
+export const LoginForm = () => {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -54,7 +54,7 @@ export const PatientForm = () => {
       <form onSubmit={form.handleSubmit(onSubmit)} className="flex-1 space-y-6">
         <section className="mb-12 space-y-4">
           <h1 className="header">Hi there 👋</h1>
-          <p className="text-dark-700">Get started with appointments.</p>
+          <p className="text-dark-700">Get started with everything.</p>
         </section>
 
         <CustomFormField
