@@ -68,9 +68,7 @@ const RequestSuccess = async ({
         </section>
 
         <Button variant="outline" className="shad-primary-btn" asChild>
-          <Link href={`/patients/${userId}/new-appointment`}>
-            New Appointment
-          </Link>
+          <Link href={`/users/${userId}/new-appointment`}>New Appointment</Link>
         </Button>
 
         <p className="copyright">© 2024 CarePluse</p>

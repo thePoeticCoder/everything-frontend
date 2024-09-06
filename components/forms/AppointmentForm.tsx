@@ -87,7 +87,7 @@ export const AppointmentForm = ({
         if (newAppointment) {
           form.reset();
           router.push(
-            `/patients/${userId}/new-appointment/success?appointmentId=${newAppointment.$id}`
+            `/users/${userId}/new-appointment/success?appointmentId=${newAppointment.$id}`
           );
         }
       } else {
