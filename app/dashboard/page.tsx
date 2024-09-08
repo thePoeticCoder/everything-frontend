@@ -1,10 +1,16 @@
 import React from "react";
 import Layout from "../layout";
+import Sidebar from "@/components/Sidebar";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { MiddleSection } from "@/components/MiddleSection";
 
 const Dashboard = () => (
   <Layout>
-    <h1 className="text-2xl font-bold">Dashboard</h1>
-    <p>This is the dashboard page.</p>
+    <Header />
+    <Sidebar />
+    <MiddleSection />
+    <Footer />
   </Layout>
 );
 
