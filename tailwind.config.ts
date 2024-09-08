@@ -21,6 +21,7 @@ const config = {
     },
     extend: {
       colors: {
+        "black-800": "#2a2a2a",
         green: {
           500: "#24AE7C",
           600: "#0D2A1F",
@@ -44,6 +45,9 @@ const config = {
           500: "#363A3D",
           600: "#76828D",
           700: "#ABB8C4",
+        },
+        colors: {
+          // Define your custom black-800 color here
         },
       },
       fontFamily: {
