@@ -5,7 +5,7 @@ const Header = () => (
   <header className="w-full p-4 bg-gray-800 text-white flex justify-between items-center">
     <h1 className="text-xl ml-8">Everything</h1>
     <nav className="space-x-4">
-      <Link href="/" passHref>
+      <Link href="http://localhost:3000/" passHref>
         <button className="bg-gray-700 hover:bg-gray-600 px-3 py-2 rounded">
           Home
         </button>
