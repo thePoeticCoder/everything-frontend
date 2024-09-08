@@ -14,7 +14,7 @@ const AdminPage = async () => {
       <header className="admin-header">
         <Link href="/" className="cursor-pointer">
           <Image
-            src="/assets/icons/logo-full.svg"
+            src="/assets/icons/full-logo.svg"
             height={32}
             width={162}
             alt="logo"
@@ -33,21 +33,21 @@ const AdminPage = async () => {
 
         <section className="admin-stat">
           <StatCard
-            type="appointments"
+            type="new-user"
             count={appointments.scheduledCount}
-            label="Scheduled appointments"
+            label="new-user"
             icon={"/assets/icons/appointments.svg"}
           />
           <StatCard
-            type="pending"
+            type="subs-user"
             count={appointments.pendingCount}
-            label="Pending appointments"
+            label="subs-user"
             icon={"/assets/icons/pending.svg"}
           />
           <StatCard
-            type="cancelled"
+            type="cancelled-user"
             count={appointments.cancelledCount}
-            label="Cancelled appointments"
+            label="cancelled-user"
             icon={"/assets/icons/cancelled.svg"}
           />
         </section>
